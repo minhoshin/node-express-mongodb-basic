@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>mongoDB DATA CRUD Test Admin</title>
+</head>
+<body>
+<a href="/api/contents">All Data View</a>
+<br><br><br><br>
+<p>데이터 입력</p>
+<form action="/api/insert" method="post">
+  name <input type="text" name="name"><br>
+  photo <input type="text" name="photo"><br>
+  good <input type="text" name="good"><br>
+  bad <input type="text" name="bad"><br>
+  price <input type="text" name="price"><br>
+  important <input type="text" name="important">
+  <input type="submit" value="Submit">
+</form>
+<br><br><br><br>
+<p>이름 검색</p>
+<form action="/api/search" method="post">
+  name <input type="text" name="name">
+  <input type="submit" value="Search">
+</form>
+</body>
+</html>
