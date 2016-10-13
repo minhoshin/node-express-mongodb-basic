@@ -15,4 +15,4 @@ node 에서 mongodb 사용을 위해 mongoose 미들웨어 사용을 합니다.
 3. node app.js
 
 # 주의
-node 가 설치 되어 있어야 합니다.
+node 와 mongodb 가 설치 되어 있어야 합니다.
