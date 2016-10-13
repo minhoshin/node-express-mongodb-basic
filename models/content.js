@@ -8,7 +8,7 @@ var contentSchema = new Schema({ // contentSchema 생성
     bad: String,
     price: String,
     important: String
-});
+}, { versionKey: false });
 
 module.exports = mongoose.model('content', contentSchema); // contentSchema 명칭을 content 로 정의 후 export
 
